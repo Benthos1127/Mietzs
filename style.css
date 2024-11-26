@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+ background-image: url(images/sparkles.gif);
+ background-color: lightpink;
+ overflow-x: auto;
+ color: #696950;
+ font-family: "Roboto mono", monospace;
+ background-repeat: no-repeat;
+ background-size: 170%;
+ height: 10%;
+ 
+
+}
+
+body{
+ display: block;
+ margin: 8px;   
+}
+
+a{
+ letter-spacing: normal;
+ transition: .3s;
+ transition-property:-background;
+ text-decoration: none;
+ color: black;
+ font-size: 15px;
+ font-family: "Roboto mono", monospace;   
+}
+
+* {cursor: url(https://cur.cursors-4u.net/nature/nat-11/nat1034.ani), url(https://cur.cursors-4u.net/nature/nat-11/nat1034.gif), auto
+}
+
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip; 
+    
+}
+
+.mainheadbox{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    display: flex;
+    margin-bottom: 5px;
+    background-image: url(images/meow.gif);
+    background-size: 33%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 130px;
+    width: 983px;
+    position: relative;
+    padding: 10px;
+}
+
+.parent{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+#container{
+    margin: auto;
+    width: 1000px;
+    height: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 5px;   
+   }
+
+   #sidebarleft{
+    float: left;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    min-height: 700px;
+    padding: 10px 5px 5px 5px;
+    background-image: url(images/cloudpink.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+    text-shadow: 0.5ox 0.5px 0px; color: white;
+    color: #38434a;
+   }
+
+   .navheader{
+    border-radius: 10px;
+    font-family: "Roboto mono", monospace;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 7px;
+    display: block;
+    background-color: white;
+    padding: 3px;
+   }
+
+   p{
+    font-size: 12px;
+    opacity: 1;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+   }
+
+   #middle{
+    float: left;
+    width: 554px;
+    border: 1px solid black;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    background-color: white;
+    height: 705x;
+    padding: 5px;
+    background-image: url(images/dreamy.jpg);   
+    background-size: 20%;
+}
+
+#content{
+    background-color: white;
+    border: 1px solid black;
+    margin: 0 auto;
+    height: 430px;
+    width: 96%;
+    padding: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-bottom: 5px;
+   }
+
+   
+   /* ScrollBar*/
+::-webkit-scrollbar{
+    width: 5px;
+   }
+   
+   ::-webkit-scrollbar-thumb{
+     background-color: lightpink  
+   }
+   
+   ::-webkit-scrollbar-track{
+     width: 5px;  
+   }
+   
+   .image2{
+    width: 41%;
+    float: right;
+    border: 1px solid #000;
+    display: flex;
+   }
+
+   .youtubebox{
+    width: 306px;
+    height: 200px;
+    border: 1px solid #000;
+    padding: 5px;
+    margin: 0px 0px 0px 0px;
+    background-color: #f9f3f3;
+    background-size: 30px;   
+   }
+
+   .navheader{
+    border-radius: 10px;
+    font-family: "Roboto mono", monospace;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 7px;
+    display: block;
+    background-color: white;
+    padding: 3px;
+   }
+
+   #sidebarright{
+    background-image: url(images/city.png);
+    background-position: center;
+    background-size: 200%;
+    background-repeat: repeat;
+    text-shadow: 0.5px 0.5px 0px #fff;
+    color: #38434a;
+    float: left;
+    width: 200px;
+    border: 1px solid #000;
+    text-align: center;
+    background-color: #EEEECD;
+    min-height: 700px;
+    padding: 10px 5px 5px 5px;
+   }
+
+   .button{
+    background-color: whitesmoke;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    box-sizing: border-box;
+    text-shadow: none;
+    word-spacing: normal;
+    text-indent: 5px;
+    line-height: normal;
+   }
+
+   .button:hover{
+    transform: scale(1.1);
+   }
+
+   #other{
+    background-image: url(images/dreamy.jpg);
+    border: 1px solid black;
+    width: 96%;
+    margin: 0 auto;
+    padding: 10px;
+    height: 32%;
+    margin-top: 5px;
+    overflow: scroll;
+    overflow-x: hidden;
+   }
+
+   figure {
+    width: 150px;
+    background-color: #f9f3f3;
+    margin: 0;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 8px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+    
+    figure img {
+    width: 100%;
+    height: 130px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+figure figcaption {
+    text-align: center;
+    padding: 8px 4px;
+    font-size: 10px;
+    color: black;
+}
+
+.gallery {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 9px;
+}
